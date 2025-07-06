@@ -1,0 +1,47 @@
+✅ Project Objective
+The goal of this project is to analyze financial loan data to monitor loan issuance performance, identify risk factors (bad loans), and uncover trends in funding, interest rates, and debt-to-income (DTI) ratios. This helps financial institutions make data-driven decisions regarding credit policies.
+
+📁 Dataset Description
+Source: financial_loan.csv
+Records: 38,600+
+Key Fields:
+1.Loan Purpose, Grade, Term
+2.Funded Amount & Amount Received
+3.Interest Rate, DTI
+4.Loan Status (Fully Paid, Charged Off, Current)
+5.Issue Date, Employee Length, Home Ownership
+
+📈 Key Dashboards
+🔹 1. Summary Dashboard
+--> Total Loan Applications: 49
+--> Good Loans: 85.7% (42 loans)
+--> Bad Loans: 14.3% (7 loans)
+--> Total Funded Amount: $654K
+--> Total Received Amount: $734K
+--> Average Interest Rate: 12%
+--> Average DTI: 16.2%
+--> Loan Status Breakdown: Fully Paid, Charged Off, Current
+
+🔹 2. Overview Dashboard
+I)   Loan Trends: Monthly growth shown via area chart.
+
+II)  Top Loan Purposes:
+    --> Debt Consolidation (18K)
+    --> Credit Card (5K)
+    --> Other (4K)
+
+III) Term Distribution:
+    --> 36 months: 73%
+    --> 60 months: 27%
+
+IV) Home Ownership:
+    --> Renters: 18.4K
+    --> Mortgage: 17.2K
+
+ V) Applications by State: 
+    --> Visualized using US map
+
+🔹 3. Details Dashboard
+      Interactive table with:
+      --> Customer ID, Loan Purpose, Grade, Funded Amt, Int Rate, DTI, etc.
+      --> Allows deep dives into specific records
