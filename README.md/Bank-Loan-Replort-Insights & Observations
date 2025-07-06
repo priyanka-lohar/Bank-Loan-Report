@@ -1,0 +1,47 @@
+1. High Approval for Good Loans
+   --> 85.7% of applications are considered good loans based on repayment behavior.
+
+2. Credit Risk
+   --> 14.3% of loans were charged off, indicating potential risks in applicant screening.
+
+3. Purpose Trends
+   --> Majority of loans are for debt consolidation and credit card refinancing, indicating high consumer debt levels.
+
+4. Loan Term Preference
+   --> Short-term loans (36 months) are more popular, making up nearly 3/4 of total applications.
+
+5. Employment Influence
+   --> Applicants with 10+ years of experience dominate in terms of applications.
+
+6. Interest & DTI Ranges
+   --> Avg Interest Rate: 12%
+   --> Avg DTI: 13.3% to 16.2%, showing most borrowers have moderate debt exposure.
+
+7. Geographical Distribution
+   --> Some states show higher loan applications—likely urban centers or high-debt zones.
+
+🛠 Power BI Features Used
+ 1.Slicers: State, Grade, Purpose, Measure
+
+ 2. DAX Measures: For Good vs Bad Loan %, MTD/MoM calculations
+
+ 3. Custom Tooltips: For visuals
+
+ 4. KPI Cards & Doughnut Charts: Summary stats
+
+ 5. Map Visual: State-level loan application analysis
+
+ 6. Line & Bar Charts: Temporal and categorical trends
+
+ 7. Conditional Formatting: Loan detail table
+
+📌 How to Use
+--> Open financial_loan.csv in Power BI
+
+--> Apply transformations using Power Query (e.g., convert date, filter nulls)
+
+--> Create relationships (if any required)
+
+--> Use DAX to create KPIs and logic for good vs bad loans
+
+--> Design and publish the report as seen in the screenshots
